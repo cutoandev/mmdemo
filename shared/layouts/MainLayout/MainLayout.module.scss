@@ -1,0 +1,7 @@
+.main-layout {
+  @apply relative overflow-hidden h-screen font-mono bg-white;
+
+  .wao-container {
+    @apply flex relative z-20 items-center;
+  }
+}

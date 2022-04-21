@@ -1,0 +1,12 @@
+[
+  {
+    "name": "USDC",
+    "addr": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+    "decimal": 6
+  },
+  {
+    "name": "CROISSANT",
+    "addr": "0xa0C3c184493f2Fae7d2f2Bd83F195a1c300FA353",
+    "decimal": 18
+  }
+]

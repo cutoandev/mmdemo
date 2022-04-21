@@ -1,0 +1,25 @@
+.minicard-container {
+  @apply shadow-lg rounded-2xl w-36 p-4 bg-white ;
+
+  .content {
+    @apply flex items-center;
+
+    .name {
+      @apply bg-green-500 p-2 h-4 w-4 rounded-full relative;
+
+      .icon {
+        @apply text-white h-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+      }
+    }
+    .text-name {
+      @apply pl-2 text-gray-700;
+    }
+  }
+  .desc {
+    @apply flex flex-col justify-start;
+
+    .text-desc {
+      @apply text-gray-800 text-xl text-left font-bold my-4;
+    }
+  }
+}
